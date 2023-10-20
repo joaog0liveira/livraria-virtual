@@ -58,8 +58,8 @@ html::-webkit-scrollbar-thumb{
 
 
 .header .header-div .header-form{
-    width: 50rem;
-    height: 5rem;
+   /* width: 50rem;
+    height: 5rem;*/    /*width e height mudam o tamanho da label do menu */
     border: var(--border);
     overflow: hidden;
     background: #fff;
@@ -76,6 +76,18 @@ html::-webkit-scrollbar-thumb{
     text-transform: none;
     color: var(--black);
 }
+
+.header .header-div .header-form label {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.header .header-div .header-form label:hover{
+    color: var(--green);
+}
+
 
 .div-busca {
     display: flex;
@@ -95,4 +107,30 @@ html::-webkit-scrollbar-thumb{
     outline: none;
     width: 200px; /* Largura da caixa de busca, ajuste conforme necessário */
   }
+
+  #btn-busca{
+    display: none;
+  }
+
+/*Menu Header-2, nav */
+
+.header .header-2{
+    background: var(--green);
+}
+
+.header .header-2 .navbar{
+    text-align: center;
+}
+
+.header .header-2 .navbar a{
+    color: #fff;
+    display: inline-block;
+    padding: 1.2rem;
+    font-size: 1.7rem;
+}
+
+.header .header-2 .navbar a:hover{
+    background-color: var(--dark-color);
+}
+
 
