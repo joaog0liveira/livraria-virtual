@@ -1,8 +1,8 @@
-const menuHamburguer = document.getElementById("menu-hamburguer");
+/*const menuHamburguer = document.getElementById("menu-hamburguer");
 
 menuHamburguer.addEventListener("click", function() {
   menuHamburguer.classList.toggle('active');
-});
+});*/
 
 
 
