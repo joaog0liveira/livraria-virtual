@@ -1,71 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!--Cabeçalho-->
-    <header class="header">
+    <header>
 
-        <div class="header-div">
+        <a href="index.html" class="logo">Books <span>.</span></a>
 
-            <a href="#" class="logo"><img src="img/logo.png" alt="" class="logo-img"></a>
-            
-            <form action="" class="header-form">
-                
-                <div class="div-busca"> 
-                        
-                        <img src="img/search.png" alt="Busca" width="30" class="icon-busca">
-    
-                
-                    <input type="search" name="" placeholder="Busque aqui..." id="caixa-busca">
-                    <label for="caixa-busca" img src="img/search.png" alt="Busca"></label> 
-                
-                </div>
-                                
-            </form>
-
-            <div class="icons">
-
-                <div id="btn-busca"><img src="img/search.png" alt="Busca" width="30" class="icon-busca"></div>
-                <a href="#"><img src="img/heart.png" alt="Busca" width="30" class="icon-busca"></a>
-                <a href="#"><img src="img/cart.png" alt="Busca" width="30" class="icon-busca"></a>
-                <a href="#"><img src="img/user.png" alt="Busca" width="30" class="icon-busca"></a>
-                <div id="btn-login"></div>
-                
-            </div>
-            
-        </div>
-            
-            <div class="header-2">
-                <nav class="navbar">
-                <a href="">Início</a>
-                <a href="">Destaque</a>
-                <a href="">Lançamentos</a>
-                <a href="">Reviews</a>
-                <a href="">Contato</a>
-                </nav>
-            </div>
-
-        <div id="menu-hamburguer">
-            <div class="bar"><a href="">Início</a></div>
-            <div class="bar"><a href="">Destaque</a></div>
-            <div class="bar"><a href="">Lançamentos</a></div>
-            <div class="bar"><a href="">Reviews</a></div>
-            <div class="bar"><a href="">Contato</a></div>
+        <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
         </div>
 
-        
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="sobre.html">about</a>
+            <a href="">products</a>
+            <a href="">review</a>
+            <a href="">contato</a>
+        </nav>
+
+        <div class="icons">
+            <a href="" class="fas fa-heart"></a>
+            <a href="" class="fas fa-shopping-cart"></a>
+            <a href="" class="fas fa-user"></a>
+        </div>
     </header>
 
-     
-            
-    
-    
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh flowers</h3>
+            <span>natural & beautiful flowers</span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Rerum dolor quod delectus, corporis non minima, natus eos magni tenetur explicabo recusandae. 
+                Vitae soluta at, impedit optio assumenda quam saepe ut!
+            </p>
+            <a href="" class="btn">shop now</a>
+        </div>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
