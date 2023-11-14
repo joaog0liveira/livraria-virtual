@@ -41,7 +41,7 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    box-shadow: 0 .5rem 1rem rgb(20, 0, 0)
 }
 
 header .logo{
@@ -403,6 +403,58 @@ section{
     font-size: 1.5rem;
     color: #999;
 }
+
+
+/*tela contato */
+
+.contato .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contato .row form{
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border: .1rem solid rgba(0, 0, 0, .1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contato .row .imagem {
+    flex: 1 1 40rem;
+}
+
+.contato .row .imagem img{
+    width: 60%;
+    margin-left: 50px;
+}
+
+.contato .row form .box{
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    text-transform: none;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    margin: .7rem 0;
+    width: 100%;
+}
+
+.contato .row form .box:focus{
+    border-color: var(--main-color);
+}
+
+.contato .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+
+
+
+
 
 /*media queries */
 
