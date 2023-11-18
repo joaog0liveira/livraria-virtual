@@ -14,3 +14,18 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+
+// formulario login / cadastro
+
+const container = document.getElementById('container-login')
+const registerBtn = document.getElementById('register');
+const loginBtn = document.getElementById('login')
+
+registerBtn.addEventListener('click', ()=>{
+    container.classList.add("active")
+});
+
+loginBtn.addEventListener('click', ()=>{
+    container.classList.remove("active")
+});
+

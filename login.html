@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Cadastro</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-login">
+    <!--Cadastro-->
+    <div class="container-login" id="container-login">
+        <div class="form-container cadastro">
+            <form>
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <span>Ou use seu email para o cadastro</span>
+
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+
+                <button>Cadastrar</button>
+                <a href="index.html" class="login-voltar">Voltar</a>
+            </form>
+        </div>
+
+        <!--Login-->
+
+        <div class="form-container login">
+            <form>
+                <h1>Login</h1>
+                <div class="social-icons">
+                    <a href="" class="icon"><i class="fa-brands fa-google"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <span>Ou use seu email e senha</span>
+
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Login</button>
+                <a href="index.html" class="login-voltar">Voltar</a>
+            </form>
+        </div>
+        
+        <div class="passa-container">
+            <div class="passa">
+                <div class="passa-painel passa-esquerda">
+                    <h1>É bom te ver de novo!</h1>
+                    <p>Insira seus dados pessoais para usar todos os recursos do site</p>
+                    <button class="hidden" id="login">Login</button>
+                </div>  
+
+                <div class="passa-painel passa-direita">
+                    <h1>Seja bem vindo!</h1>
+                    <p>Faça o registro no site para ter acesso a todos os recursos</p>
+                    <button class="hidden" id="register">Cadastrar-se</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
