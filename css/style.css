@@ -95,14 +95,20 @@ section{
     align-items: center;
     min-height: 100vh;
     background: var(--bg-color); /* Ou background: url(..img/) no-repeat*/
-    /*
-    background-size: cover;
-    background-position: center;
-    */
+
+    /*background-size: cover;
+    background-position: center;*/
+    
 }
 
 .home .content{
     max-width: 50rem;
+}
+
+.home .content img{
+    position: absolute;
+    left: 60%;
+    top: 10%;
 }
 
 .home .content h3{
@@ -147,7 +153,7 @@ section{
     color: #333;
     padding: 1rem;
     margin: 2rem 0;
-    background: rgba(255, 51, 153, .05);
+    background: #fcfbfba2;
     margin-top: 6%;
 }
 
@@ -709,6 +715,19 @@ section{
     /*home{
         background-position: left;   caso eu use imagem
     }*/
+
+
+    .home .content p{
+        position: relative;
+        z-index: 1000;
+    }
+
+    .home .content img{
+        top: 28%;
+        left: 50%;
+        width: 50%;
+    }
+
 }
 
 
@@ -737,12 +756,25 @@ section{
 
     .home .content h3{
         font-size: 5rem;
+        text-align: center; 
     }
 
-    .home .content span{
+    .home .content p {
+        position: relative;
+        text-align: center; 
+    }
+    
+    .home .content span {
         font-size: 2.5rem;
+        display: block; 
+        text-align: center; 
     }
 
+
+    .home .content img{
+        display: none;
+    }
+    
     .heading{
         margin-top: 15%;
     }
@@ -765,6 +797,15 @@ section{
     .heading{
         font-size: 3rem;
         margin-top: 20%;
+    }
+
+    .home .content p{
+        position: relative;
+        z-index: 1000;
+    }
+
+    .home .content img{
+        display: none;
     }
 
 }
