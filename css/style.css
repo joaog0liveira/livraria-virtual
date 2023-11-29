@@ -184,7 +184,7 @@ section{
     object-fit: cover;
 }
 
-.about .row .video-container h3{
+.about .row .video-container h3{ /*titulo*/
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
